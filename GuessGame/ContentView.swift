@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var correctAnswer = 0
+    @State var score = 0
+    @State var gameTitle = "?"
+    @State var gameSubtitle = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+    
         }
         .padding()
     }

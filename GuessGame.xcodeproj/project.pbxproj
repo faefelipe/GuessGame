@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		20D9B8F02E67DA2B00BBCD22 /* PBXContainerItemProxy */ = {
+		20D9B9472E687AE800BBCD22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 20D9B8A42E67CC9900BBCD22 /* Project object */;
 			proxyType = 1;
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		20D9B8AC2E67CC9900BBCD22 /* GuessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20D9B8EC2E67DA2B00BBCD22 /* GuessGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D9B9432E687AE800BBCD22 /* ContentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -27,9 +27,9 @@
 			path = GuessGame;
 			sourceTree = "<group>";
 		};
-		20D9B8ED2E67DA2B00BBCD22 /* GuessGameTests */ = {
+		20D9B9442E687AE800BBCD22 /* ContentViewTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GuessGameTests;
+			path = ContentViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -42,7 +42,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20D9B8E92E67DA2B00BBCD22 /* Frameworks */ = {
+		20D9B9402E687AE800BBCD22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				20D9B8AE2E67CC9900BBCD22 /* GuessGame */,
-				20D9B8ED2E67DA2B00BBCD22 /* GuessGameTests */,
+				20D9B9442E687AE800BBCD22 /* ContentViewTests */,
 				20D9B8AD2E67CC9900BBCD22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				20D9B8AC2E67CC9900BBCD22 /* GuessGame.app */,
-				20D9B8EC2E67DA2B00BBCD22 /* GuessGameTests.xctest */,
+				20D9B9432E687AE800BBCD22 /* ContentViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,27 +95,27 @@
 			productReference = 20D9B8AC2E67CC9900BBCD22 /* GuessGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20D9B8EB2E67DA2B00BBCD22 /* GuessGameTests */ = {
+		20D9B9422E687AE800BBCD22 /* ContentViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20D9B8F22E67DA2B00BBCD22 /* Build configuration list for PBXNativeTarget "GuessGameTests" */;
+			buildConfigurationList = 20D9B9492E687AE800BBCD22 /* Build configuration list for PBXNativeTarget "ContentViewTests" */;
 			buildPhases = (
-				20D9B8E82E67DA2B00BBCD22 /* Sources */,
-				20D9B8E92E67DA2B00BBCD22 /* Frameworks */,
-				20D9B8EA2E67DA2B00BBCD22 /* Resources */,
+				20D9B93F2E687AE800BBCD22 /* Sources */,
+				20D9B9402E687AE800BBCD22 /* Frameworks */,
+				20D9B9412E687AE800BBCD22 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20D9B8F12E67DA2B00BBCD22 /* PBXTargetDependency */,
+				20D9B9482E687AE800BBCD22 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				20D9B8ED2E67DA2B00BBCD22 /* GuessGameTests */,
+				20D9B9442E687AE800BBCD22 /* ContentViewTests */,
 			);
-			name = GuessGameTests;
+			name = ContentViewTests;
 			packageProductDependencies = (
 			);
-			productName = GuessGameTests;
-			productReference = 20D9B8EC2E67DA2B00BBCD22 /* GuessGameTests.xctest */;
+			productName = ContentViewTests;
+			productReference = 20D9B9432E687AE800BBCD22 /* ContentViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					20D9B8AB2E67CC9900BBCD22 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					20D9B8EB2E67DA2B00BBCD22 = {
+					20D9B9422E687AE800BBCD22 = {
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = 20D9B8AB2E67CC9900BBCD22;
 					};
@@ -152,7 +152,7 @@
 			projectRoot = "";
 			targets = (
 				20D9B8AB2E67CC9900BBCD22 /* GuessGame */,
-				20D9B8EB2E67DA2B00BBCD22 /* GuessGameTests */,
+				20D9B9422E687AE800BBCD22 /* ContentViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -165,7 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20D9B8EA2E67DA2B00BBCD22 /* Resources */ = {
+		20D9B9412E687AE800BBCD22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,7 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20D9B8E82E67DA2B00BBCD22 /* Sources */ = {
+		20D9B93F2E687AE800BBCD22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,10 +192,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20D9B8F12E67DA2B00BBCD22 /* PBXTargetDependency */ = {
+		20D9B9482E687AE800BBCD22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 20D9B8AB2E67CC9900BBCD22 /* GuessGame */;
-			targetProxy = 20D9B8F02E67DA2B00BBCD22 /* PBXContainerItemProxy */;
+			targetProxy = 20D9B9472E687AE800BBCD22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -377,7 +377,7 @@
 			};
 			name = Release;
 		};
-		20D9B8F32E67DA2B00BBCD22 /* Debug */ = {
+		20D9B94A2E687AE800BBCD22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -386,7 +386,7 @@
 				DEVELOPMENT_TEAM = 6265G356YS;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = faefelipedev.GuessGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = faefelipedev.ContentViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -395,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		20D9B8F42E67DA2B00BBCD22 /* Release */ = {
+		20D9B94B2E687AE800BBCD22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,7 +404,7 @@
 				DEVELOPMENT_TEAM = 6265G356YS;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = faefelipedev.GuessGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = faefelipedev.ContentViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -434,11 +434,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20D9B8F22E67DA2B00BBCD22 /* Build configuration list for PBXNativeTarget "GuessGameTests" */ = {
+		20D9B9492E687AE800BBCD22 /* Build configuration list for PBXNativeTarget "ContentViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20D9B8F32E67DA2B00BBCD22 /* Debug */,
-				20D9B8F42E67DA2B00BBCD22 /* Release */,
+				20D9B94A2E687AE800BBCD22 /* Debug */,
+				20D9B94B2E687AE800BBCD22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

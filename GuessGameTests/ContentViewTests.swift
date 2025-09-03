@@ -85,4 +85,13 @@ final class ContentViewTests: XCTestCase {
         XCTAssertEqual(sut.gameSubtitle, "Correct answer is fox", "A legenda da resposta correta para 'fox' está incorreta.")
     }
     
+    // --- Teste para a função 'randomizeCorrectAnswer()' ---
+    
+    func test_randomizeCorrectAnswer_setsValidNumber() {
+     
+        sut.randomizeCorrectAnswer()
+        
+        XCTAssertTrue(sut.correctAnswer >= 0 && sut.correctAnswer <= 2, "O valor aleatório não está no intervalo esperado (0, 1, 2).")
+    }
+    
 }

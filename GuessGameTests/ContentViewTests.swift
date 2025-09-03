@@ -29,5 +29,16 @@ final class ContentViewTests: XCTestCase {
         
         XCTAssertEqual(sut.score, 1, "O score deveria ser incrementado para 1 após uma resposta correta.")
     }
+    
+    func test_check_incorrectAnswer_decrementsScore() {
+        sut.correctAnswer = 0
+        sut.score = 5
+        
+        sut.check(answer: 1)
+        
+        XCTAssertEqual(sut.score, 4, "O score deveria ser decrementado para 4 após uma resposta incorreta.")
+    }
+    
+    
 
 }

@@ -1,0 +1,33 @@
+//
+//  GuessGameTests.swift
+//  GuessGameTests
+//
+//  Created by Felipe Almeida on 02/09/25.
+//
+
+import XCTest
+import SwiftUI
+@testable import GuessGame
+
+@MainActor
+final class ContentViewTests: XCTestCase {
+
+    var sut: ContentView!
+    
+    override func setUpWithError() throws {
+        sut = ContentView()
+    }
+
+    override func tearDownWithError() throws {
+        sut = nil
+    }
+    
+    func test_check_correctAnswer_incrementsScore() {
+        sut.correctAnswer = 1
+        
+        sut.check(answer: 1)
+        
+        XCTAssertEqual(sut.score, 1, "O score deveria ser incrementado para 1 após uma resposta correta.")
+    }
+
+}

@@ -60,4 +60,13 @@ final class ContentViewTests: XCTestCase {
         
         XCTAssertEqual(sut.gameTitle, "Success!", "O título do jogo não foi atualizado corretamente para 'Success!'.")
     }
+    
+    func test_check_updatesGameTitleToFailedOnIncorrectAnswer() {
+        
+        sut.correctAnswer = 2
+        
+        sut.check(answer: 1)
+        
+        XCTAssertEqual(sut.gameTitle, "Failed", "O título do jogo não foi atualizado corretamente para 'Failed'.")
+    }
 }

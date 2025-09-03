@@ -16,10 +16,23 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-    
+            Text(gameTitle)
+                .font(.system(size: 40, weight: .semibold))
+                .padding(.top, 100)
+            Text(gameSubtitle)
+                .font(.system(size: 20))
+                .padding(.bottom, 100)
+            
+            HStack {
+                Spacer()
+                Text("Score \(score)")
+                    .font(.system(size: 15, weight: .semibold))
+            }
         }
         .padding()
     }
+    
+    func check(){}
 }
 
 #Preview {

@@ -28,6 +28,36 @@ struct ContentView: View {
                 Text("Score \(score)")
                     .font(.system(size: 15, weight: .semibold))
             }
+            Button(action: {
+                check(answer: 0)
+            },label: {
+                Image("dog")
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .background(Color.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 6))
+            })
+            
+            Button(action: {
+                check(answer: 1)
+            },label: {
+                Image("cat")
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .background(Color.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 6))
+            })
+            
+            Button(action: {
+                check(answer: 2)
+            },label: {
+                Image("fox")
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 50)
+                    .background(Color.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 6))
+            })
+            Spacer()
         }
         .padding()
     }

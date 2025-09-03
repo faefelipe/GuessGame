@@ -21,6 +21,7 @@ final class ContentViewTests: XCTestCase {
     override func tearDownWithError() throws {
         sut = nil
     }
+    // --- Testes para a lógica da função 'check(answer:)'
     
     func test_check_correctAnswer_incrementsScore() {
         sut.correctAnswer = 1
@@ -39,6 +40,14 @@ final class ContentViewTests: XCTestCase {
         XCTAssertEqual(sut.score, 4, "O score deveria ser decrementado para 4 após uma resposta incorreta.")
     }
     
-    
+    func test_check_incorrectAnswer_doesNotDecrementScoreBelowZero() {
+     
+        sut.correctAnswer = 0
+        sut.score = 0
+        
+        sut.check(answer: 1)
+        
+        XCTAssertEqual(sut.score, 0, "O score não deveria ser menor que zero.")
+    }
 
 }

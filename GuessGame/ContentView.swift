@@ -32,7 +32,25 @@ struct ContentView: View {
         .padding()
     }
     
-    func check(){}
+    func check(answer: Int){
+        if answer == correctAnswer {
+            score += 1
+            gameTitle = "Success!"
+        } else {
+            if score != 0 {
+                score -= 1
+            }
+            gameTitle = "Failed"
+        }
+        
+        if correctAnswer == 0 {
+            gameSubtitle = "Correct answer is dog"
+        } else if correctAnswer == 1 {
+            gameSubtitle = "Correct answer is cat"
+        } else if correctAnswer == 2 {
+            gameSubtitle = "Correct answer is fox"
+        }
+    }
 }
 
 #Preview {

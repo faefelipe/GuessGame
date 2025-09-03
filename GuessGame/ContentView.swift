@@ -50,6 +50,12 @@ struct ContentView: View {
         } else if correctAnswer == 2 {
             gameSubtitle = "Correct answer is fox"
         }
+        randomizeCorrectAnswer()
+    }
+    
+    func randomizeCorrectAnswer() {
+        let randomCorrectAnswer = Int.random(in: 0..<3)
+        correctAnswer = randomCorrectAnswer
     }
 }
 
